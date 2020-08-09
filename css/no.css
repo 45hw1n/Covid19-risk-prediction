@@ -1,0 +1,42 @@
+body{
+    margin: 0 auto;
+    padding:100px 50px; 
+     
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+    background-image: url("c19.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+.result{
+    color: black;
+}
+h1{
+   text-align: center;
+   color:yellow;
+}
+.col{
+    text-align: center;
+}
+
+.container{
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 50px 25px;
+    background-color: #d3d7dfc5;
+   
+    margin: 25px auto;
+    vertical-align: center ;
+}
+
+label{
+    font-size: 22.5px;
+}
+
+@media only screen and (max-width:768px) {
+    body{
+        padding:15px 10px;   
+    }
+}
