@@ -24,7 +24,7 @@ h1{
     background-color: #d3d7dfc5;
    
     margin: 25px auto;
-    vertical-align: center ;
+    
 }
 
 label{
@@ -33,19 +33,52 @@ label{
 
 @media only screen and (max-width:768px) {
     body{
-        padding:0px;   
+        padding:15px;   
     }
     .container{
         width: 100%;
     }
+    
     table{
         width: 100%;
+    }
+    h5{
+        font-size: 16px; 
     }
 }
 
 
-@media only screen and (max-width:424px){
-table{
-    width: 20%;
+@media only screen and (max-width:426px){
+    body{
+        padding:7.5px;   
+    }
+    .container{
+        width: 100%;
+        padding-bottom:50px;
+        padding-top:20px;
+        
+    }
+    th{
+        font-size: 15px;
+    }
+    
+    h1{
+        font-size: 22.5px;
+    }
+    h3{
+        font-size: 18px;
+    }
+    h4{
+        font-size: 15px; 
+    }
+    h5{
+        font-size: 14px; 
+    }
+    h6{
+        font-size: 12px;   
+    }
 }
-}
+@media only screen and (max-width:1025px) and (min-width:571px) {
+.fl{
+    padding-bottom: 17px;
+}}
