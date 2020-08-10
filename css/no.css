@@ -66,3 +66,7 @@ label{
     }
 
 }
+@media only screen and (max-width:1025px) and (min-width:571px) {
+    .fl{
+        padding-bottom: 18px;
+    }}
