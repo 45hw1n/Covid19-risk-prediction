@@ -43,7 +43,7 @@ let details = [];
 const addDetail = (ev)=>{
     ev.preventDefault();  //to stop the form submitting
     let detail= {
-        "id": Date.now(),
+        "id":  document.getElementById('mobile').value,
         "name": document.getElementById('name').value,
         "age": document.getElementById('age').value,
         "mobileNo": document.getElementById('mobile').value,
